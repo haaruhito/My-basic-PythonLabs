@@ -5,7 +5,7 @@ def factorialFun(n):
         return 1
     
     product = 1
-    for i in range(2, n + 1):
+    for i in range(2, n + 1): #recursion is used here. Its like loop.
         product *= i
     return product
 
