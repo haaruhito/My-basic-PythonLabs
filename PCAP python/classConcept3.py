@@ -2,7 +2,8 @@ class Computer:
 
     def __init__(self, processor, ram):  #Lets pass the same parameters created in the object into this init method. 
                                         #self is the object, processor and ram are other parameters of objects.
-        self.processor = processor
+        self.processor = processor      #processor, and ram are attributes here. So, they take values when objects are
+                                        #created and parameters of these attributes are passed. 
         self.ram = ram
 
 

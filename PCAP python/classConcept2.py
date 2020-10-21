@@ -5,6 +5,7 @@ class Computer:
 
         #Here "in init" will print 3 times because "self" calls both objects comp1, comp2 and comp3
         # For every object, this init method is called once. 
+        #In init we create attribute, so that many values can use this attribute.
 
     def config(self):
         print("processor, i5, 16gb RAM, 1tB ROM") #This is printed only once when an object is called. 
